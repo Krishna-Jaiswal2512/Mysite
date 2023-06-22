@@ -1,0 +1,166 @@
+/* inline takes space as much it requiered 
+   block element take the whole width but the height is as requiered
+   positions:
+   relative position- it  changes its position acoording to position right left top bottom(if we change the right property 20 pixels it will get pushed left 20 pixels) 
+   absolute position- it works according to the whole body(if we change the right property 20 pixels it will get ) they are relative to its parent/
+     */
+body{
+   
+   text-align: center;
+   font-family: Alkatra;
+   color: #40514E ;
+}
+h1{
+    margin: 115px auto 60 auto ;/*top  right  bottom  left.*/
+
+    font-size: 2em; /*1em or 1rem = 100% or 16px so 90px = 90/16(5.625em)*/
+    /*using em we can get the dynamic size of ur text.*/
+    /*if we will use rem than it will ignore all the parent size n set it to the current size.*/
+    color: #66BFBF;
+    line-height: 3;
+    margin: 40px auto 1px auto;
+    text-decoration: underline;
+    
+}
+div{
+    /*background-color: #83beb4;*/
+    
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+
+p{
+    font-weight: normal;
+    line-height: 3;
+}
+.Top-container{
+    
+    
+    margin: 20px;
+    border: 3px solid black;
+    position: relative;
+    padding-top: 80px;
+}
+.middle-container{
+   /* background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border: 20px solid black;
+    margin: 20px;
+    /*margin: -20px 265px 0px 263px*/
+    /*        top right bottom left */
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px ;
+    /*height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    margin: 20px;
+    /*margin: 0px 502px 0px 502px*/
+
+}
+.programer{
+    text-decoration: underline; 
+}
+
+a{
+    color: #11999E;
+}
+
+.uppercloud{
+    position: absolute;
+    right: 60px;
+    top: 40px;
+}
+.lowercloud{
+    position: absolute;
+    left: 58px;
+}
+.skills{
+    height: auto;
+    width: auto;
+}
+.paragraph{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+
+}
+h3{
+    color: #11999E ;
+}
+.footer-link:hover{
+    color: white;
+}
+.skill-img{
+    width: 25%;
+    float: left;/*it will float that particular image to the respective side.*/
+    margin: auto 50px auto auto;
+}
+.chilli-img{
+    width: 25%;
+    float: right;
+    margin: auto 50px auto auto;
+}
+
+/*if we want to clear any side of the margin.*/
+/*.skills-description{
+    clear: left;
+}
+.chilli-description{
+    clear: right;
+}*/
+.myself{
+    margin: 50px 0px;
+}
+
+.copyright{
+    color: white;
+    font-size: 0.75rem;
+}
+ 
+/*
+hr{
+    border: dotted #EAF6F6 5px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}*/
+
+.contact-me{
+    width: 40%;
+    margin: 40px auto 40px auto ;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
